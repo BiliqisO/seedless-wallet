@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+@media screen and (max-width: 780px) {
+  .fourth {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    color: white;
+    justify-content: space-between;
+  }
+  .leftt h1 {
+  }
+}

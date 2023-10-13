@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+.first {
+  background: linear-gradient(0deg, #191929, #191929),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  padding: 35px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 70px;
+}
+.wallet-h1 {
+  font-weight: 700;
+  font-size: 4.374rem;
+  line-height: 75.07px;
+}
+.leftf {
+  width: 50%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 417px;
+}
+.leftf p {
+  line-height: 32.57px;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #9d60ff;
+  border: none;
+  color: #ffffff;
+  border-radius: 8.75px;
+  font-weight: 700;
+  margin: 20px 0px;
+  height: 50px;
+  width: 290px;
+}
+.circle {
+  width: 417px;
+  height: 417px;
+  border-radius: 50% 50%;
+  background-color: #9d60ff;
+  position: relative;
+}
+.wallet-page {
+  position: absolute;
+  top: 84.5px;
+  left: 99px;
+}
+@media screen and (max-width: 780px) {
+  .leftf {
+    /* background-color: lightgreen; */
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 100%;
+  }
+  .circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50% 50%;
+    margin: auto;
+    background-color: #9d60ff;
+    position: relative;
+    overflow: hidden;
+  }
+  .wallet-page {
+    position: absolute;
+    left: 77px;
+    overflow: hidden;
+  }
+  .wallet-h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+  .first {
+    padding: 5px;
+  }
+
+  /* .rightf {
+    width: 100%;
+    /* margin: auto; */
+  /* padding: 0;
+  } */
+}

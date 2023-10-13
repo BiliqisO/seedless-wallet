@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.walletpage {
+  width: 218.4px;
+  height: 360px;
+  background-color: #171726;
+  border-radius: 18.11px;
+}
+.purple {
+  color: #9d60ff;
+}
+
+.walletpage h1 {
+  padding: 30px 30px 0px 30px;
+  font-size: 18.93px;
+  font-weight: 700;
+}
+.walletimg {
+  width: 143.78px;
+  height: 119.76px;
+}
+.walletpage p {
+  font-size: 8.74px;
+  font-weight: 400;
+  line-height: 13.15px;
+  text-align: center;
+  padding: 0 15px;
+}
+.walletpage button {
+  width: 184.91px;
+  height: 2rem;
+  padding: 0;
+  font-size: 8.74px;
+}
+hr {
+  width: 184.91px;
+  border-color: #9d60ff;
+  height: 0px;
+  margin: 0 20px;
+}
+@media screen and (max-width: 780px) {
+  .walletpage {
+    overflow: hidden;
+  }
+}

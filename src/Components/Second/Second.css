@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+.second {
+  padding: 150px;
+  background: linear-gradient(0deg, #191929, #191929),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+}
+.second h1 {
+  width: 516px;
+  font-weight: 700;
+  font-size: 70px;
+  margin: auto;
+  color: #ffffff;
+}
+.purple {
+  color: #9d60ff;
+}
+.second p {
+  font-size: 1.25rem;
+  padding: 50px 0px;
+  color: #ffffff;
+  width: 643px;
+  margin: auto;
+}
+.second ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  background-color: #ffffff12;
+  width: 350px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #9d60ff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.second ul li {
+  list-style: none;
+
+  padding: 20px;
+}
+.second ul li:active,
+.second ul li:hover {
+  padding: 15px 32px;
+
+  background-color: #ffffff12;
+}
+@media screen and (max-width: 780px) {
+  .second h1 {
+    width: 350px;
+    font-weight: 700;
+    font-size: 70px;
+    padding: 0;
+    color: #ffffff;
+  }
+  .second {
+    padding: 10px;
+    margin: auto;
+  }
+  .second p {
+    font-size: 1rem;
+    padding: 50px 0px;
+    color: #ffffff;
+    width: 350px;
+    margin: auto;
+  }
+}
