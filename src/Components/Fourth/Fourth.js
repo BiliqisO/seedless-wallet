@@ -17,7 +17,10 @@ export const Fourth = () => {
         <div className="circle">
           <div className="wallet-page">
             <div className="walletpage">
-              <img src={auth} />
+              <img
+                src={auth}
+                className="auth"
+              />
             </div>
           </div>
         </div>

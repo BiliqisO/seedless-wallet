@@ -10,7 +10,10 @@ export const Fifth = () => {
         <div className="circle animate__backInLeft">
           <div className="wallet-page">
             <div className="walletpage">
-              <img src={code} />
+              <img
+                src={code}
+                className="code"
+              />
             </div>
           </div>
         </div>

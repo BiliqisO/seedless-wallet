@@ -59,7 +59,7 @@
   .second h1 {
     width: 350px;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 35px;
     padding: 0;
     color: #ffffff;
   }
@@ -68,10 +68,35 @@
     margin: auto;
   }
   .second p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 50px 0px;
     color: #ffffff;
     width: 350px;
     margin: auto;
+  }
+  .second ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    background-color: #ffffff12;
+    width: 250px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background-color: #9d60ff;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .second ul li {
+    list-style: none;
+    padding: 10px;
+  }
+  .second ul li:active,
+  .second ul li:hover {
+    padding: px 16px;
+    background-color: #ffffff12;
   }
 }

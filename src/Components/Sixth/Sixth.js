@@ -15,7 +15,10 @@ export const Sixth = () => {
         <button>VIEW GITHUB</button>
       </div>
       <div className="rights">
-        <img src={asset} />
+        <img
+          src={asset}
+          className="asset-img"
+        />
       </div>
     </div>
   );

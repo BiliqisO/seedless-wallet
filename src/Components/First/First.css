@@ -58,15 +58,15 @@ button {
 }
 @media screen and (max-width: 780px) {
   .leftf {
-    /* background-color: lightgreen; */
+    font-size: 0.6rem;
     width: 100%;
     text-align: center;
-    padding: 0;
+    margin: 10px;
     height: 100%;
   }
   .circle {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 50% 50%;
     margin: auto;
     background-color: #9d60ff;
@@ -75,7 +75,7 @@ button {
   }
   .wallet-page {
     position: absolute;
-    left: 77px;
+    left: 70px;
     overflow: hidden;
   }
   .wallet-h1 {
@@ -85,6 +85,17 @@ button {
   }
   .first {
     padding: 5px;
+  }
+
+  button {
+    background-color: #9d60ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 8.75px;
+    font-weight: 700;
+    margin: 10px 0px;
+    height: 35px;
+    width: 220px;
   }
 
   /* .rightf {

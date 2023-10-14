@@ -17,23 +17,16 @@
   margin: auto;
   /* background-color: aqua; */
 }
-/* .sec-img img {
-  width: 50px;
-  height: 50px;
+@media screen and (max-width: 780px) {
+  .security {
+    width: 80px;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .sec-img img {
+    width: 90px;
+    /* display: flex; */
+    /* padding: 20px; */
+    /* background-color: aqua; */
+  }
 }
-.sec-img div h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
-.sec-img div p {
-  font-size: 0.3rem;
-  line-height: 8px;
-  padding: 0;
-  text-align: left;
-}
-
-.sec-img div {
-  text-align: left;
-  padding: 10px 0px 0px 10px;
-  background-color: #232333;
-} */

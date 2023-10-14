@@ -40,20 +40,21 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
-
-    /* justify-content: space-between;  */
   }
   .rightt {
     padding: 10px;
     text-align: align;
-    width: 350px;
+    width: 400px;
     width: 100%;
   }
   .rightt h1 {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
   }
-
+  .rightt {
+    text-align: left;
+    width: 100%;
+  }
   .rightt p {
     font-size: 1rem;
     line-height: 32.57px;

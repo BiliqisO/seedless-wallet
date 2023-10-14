@@ -44,19 +44,31 @@
 }
 
 @media screen and (max-width: 780px) {
+  .sixth {
+    background-color: #9d60ff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    width: 100vw;
+    justify-content: space-between;
+    color: #ffffff;
+  }
   .leftf {
     width: 100%;
     text-align: center;
     padding: 0;
     height: 100%;
+    padding-left: 0px;
   }
   .rightf {
     width: 100%;
     margin: 0;
   }
   .rights img {
-    width: 300px;
-    height: 300px;
-    padding: 0;
+    width: 380px;
+    height: 350px;
+  }
+  .rights {
+    margin: 0;
   }
 }
