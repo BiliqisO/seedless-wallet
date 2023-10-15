@@ -64,11 +64,16 @@
     width: 100%;
     margin: 0;
   }
-  .rights img {
-    width: 380px;
+
+  .asset-img {
+    width: 400px;
     height: 350px;
+    margin: auto;
+    padding: 0;
   }
   .rights {
     margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }

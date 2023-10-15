@@ -34,22 +34,13 @@ h1,
   cursor: pointer;
 }
 
-.accordion-title:hover {
-}
-
 .accordion-title,
 .accordion-content {
   padding: 1rem;
   text-align: left;
 }
 
-.accordion-content {
-}
-
 @media screen and (max-width: 780px) {
-  body {
-    font-size: 18px;
-  }
   h1,
   .left7 p {
     text-align: center;
@@ -61,5 +52,11 @@ h1,
   .seventh {
     display: flex;
     padding: 10px;
+    margin: auto;
+    font-size: 18px;
+  }
+  .left7 {
+    padding: 0;
+    margin: auto;
   }
 }

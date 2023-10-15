@@ -38,13 +38,13 @@ a {
   color: #fff;
   text-decoration: none;
 }
-ul {
+.uli li {
   text-align: center;
 }
 .uli li {
   display: flex;
 }
-.bottom ul {
+.bottom .uli {
   display: flex;
 }
 .bottom p {
@@ -62,7 +62,10 @@ ul {
   .bottom {
     flex-direction: column;
   }
-  li {
+  .top h1 {
+    font-size: 2.875;
+  }
+  .uli li {
     list-style: none;
     text-align: center;
     font-size: 0.8rem;
