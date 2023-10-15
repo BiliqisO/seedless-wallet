@@ -1,6 +1,8 @@
 import "./App.css";
+import { Eight } from "./Components/Eight.js/Eight";
 import { Fifth } from "./Components/Fifth/Fifth";
 import { First } from "./Components/First/First";
+import { Footer } from "./Components/Footer/Footer";
 import { Fourth } from "./Components/Fourth/Fourth";
 import { Header } from "./Components/Header/Header";
 import { Second } from "./Components/Second/Second";
@@ -19,6 +21,8 @@ function App() {
       <Fifth />
       <Sixth />
       <Seventh />
+      <Eight />
+      <Footer />
     </div>
   );
 }
